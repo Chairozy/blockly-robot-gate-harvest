@@ -26,7 +26,7 @@
   document.head.appendChild(script);
   // Load the code bundle for the chosen game.
   var script = document.createElement('script');
-  script.src = appName + '/generated/uncompressed.js';
+  script.src = appName + '/generated/compressed.js';
   script.type = 'text/javascript';
   document.head.appendChild(script);
 })();
